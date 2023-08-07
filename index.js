@@ -39,7 +39,7 @@ app.get('/v1', (req, resp) => {
                 const img = $(this).find("a > img").attr("data-src");
                 thumbnails.push({
                     name,
-                    url: `http://localhost:8080/v1${url.split("/wiki")[1]}`,
+                    url: `https://anime-slayer-demo.onrender.com/v1${url.split("/wiki")[1]}`,
                     img
                 })
             })
